@@ -10,7 +10,7 @@ import IPFS from 'ipfs-api';
 export const web3 = new Web3(window.web3.currentProvider);
 export const ipfs = new IPFS({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' });
 
-const address = '0x7be08bd23229dae7b36142c67c4b16f360f8e3b6';
+const address = 'address here';
 const abi = [
   {
     "constant": false,
