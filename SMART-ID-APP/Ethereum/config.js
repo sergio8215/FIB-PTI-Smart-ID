@@ -14,7 +14,7 @@ type Props = *;
 const web3Provider = new Web3.providers.HttpProvider(TESTRPC_ADDRESS);
 export const web3 = new Web3(web3Provider);
 
-export const address = '0x7be08bd23229dae7b36142c67c4b16f360f8e3b6';
+export const address = 'address here';
 const abi = [
     {
         "constant": false,
